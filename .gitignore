@@ -1,0 +1,27 @@
+# Dependencies and builds
+node_modules/
+dist/
+build/
+.next/
+.vite/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs and caches
+*.log
+.cache/
+.eslintcache
+
