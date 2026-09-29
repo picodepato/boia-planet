@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#052f4d"><meta name="description" content="Entra en BOIA.PLANET. Un festival sin fronteras musicales y un océano por explorar. Piloto interactivo.">
+  <title>BOIA.PLANET — Underground Music Festival</title>
+  <link rel="stylesheet" href="./planet.css">
+  <link rel="stylesheet" href="./voyage.css">
+</head>
+<body data-screen="welcome">
+  <canvas id="world" aria-label="Mundo navegable BOIA"></canvas>
+  <div id="shade"></div>
+  <div id="cloud-transition" aria-hidden="true"></div>
+  <header class="masthead">
+    <button class="brand" data-action="home" aria-label="BOIA inicio"><img src="../assets/logo.jpeg" alt="BOIA"><span>.planet</span></button>
+    <div class="top-actions"><button class="small-btn header-tickets" data-action="tickets" data-i18n="tickets">Entradas</button><button id="lang" class="small-btn" aria-label="Change language">EN</button><button data-action="passport" class="small-btn" id="passport-button">Mi pasaporte</button><button data-board="welcome" class="small-btn board-toggle" aria-label="Menú BOIA">⚓</button></div>
+  </header>
+  <main>
+    <section id="welcome" class="screen welcome">
+      <div class="cinema-stage"><span class="cinema-step">BOIA.PLANET / 01</span><p class="eyebrow">BIENVENIDO / WELCOME</p><h1>Un planeta.<br><em>Todos los sonidos.</em></h1><p class="cinema-question">Elige tu idioma / Choose your language</p><div class="language-choices"><button data-language="es"><span>ES</span>Español <b>↗</b></button><button data-language="en"><span>EN</span>English <b>↗</b></button></div></div><div class="cinema-bottom"><button class="text-btn" data-direct-tickets>Solo quiero ver las entradas ↗</button><span>UNDERGROUND MUSIC FESTIVAL</span></div>
+    </section>
+    <section id="home" class="screen home" hidden>
+      <div class="home-copy"><div class="eyebrow" data-i18n="independent">ESPÍRITU INDEPENDIENTE. SONIDO GLOBAL.</div><h1>BOIA<br><span>UNDERGROUND<br>MUSIC FESTIVAL</span></h1><p data-i18n="homeText">Para amantes de toda la música.<br>Para quienes siempre quieren descubrir algo más.</p><button class="primary explore" data-action="explore" data-i18n="explore">Explorar el universo <span>↗</span></button><div class="under-cta" data-i18n="exploreNote">Tres islas. Seis boyas. Tu propia aventura.</div></div>
+      <div class="home-coordinates"><span>38° N &nbsp; / &nbsp; 00° W</span><b data-i18n="secret">PRÓXIMA PARADA<br>SECRET LOCATION</b></div>
+      <nav class="dock-nav" aria-label="Festival"><button data-action="tickets"><span>01</span><strong data-i18n="tickets">Entradas</strong><b>↗</b></button><button data-action="artists"><span>02</span><strong data-i18n="artists">Artistas</strong><b>↗</b></button><button data-action="gallery"><span>03</span><strong data-i18n="gallery">Fotos y vídeos</strong><b>↗</b></button><button data-action="shop"><span>04</span><strong data-i18n="shop">Tienda</strong><b>↗</b></button></nav>
+      <footer class="home-footer"><button class="text-btn" data-action="philosophy" data-i18n="philosophy">La filosofía BOIA</button><span>EST. ON THE DANCEFLOOR</span><a href="https://www.instagram.com/boia.planet/" target="_blank" rel="noopener">@boia.planet ↗</a></footer>
+    </section>
+    <section id="game" class="screen game" hidden>
+      <div class="game-tools"><button data-action="home" class="glass" data-i18n="backFestival">← Festival</button><button data-action="tickets" class="ticket-chip" data-i18n="tickets">Entradas ↗</button></div>
+      <div class="voyage glass"><span data-i18n="voyage">CARTA DE NAVEGACIÓN</span><strong id="next-island">Rumbo a Halloween</strong><div><span id="buoy-count">0 / 6 BOIAS</span><span id="coin-count">0 ◇</span></div></div>
+      <div id="tutorial" class="tutorial"><span class="tutorial-number">01</span><div><strong data-i18n="touchBoat">Toca el barco y arrastra para navegar.</strong><p data-i18n="driftHelp">Mantén un segundo dedo sobre el mar para derrapar. En ordenador: WASD / flechas y Espacio.</p></div><button data-action="dismissTutorial" aria-label="Cerrar ayuda">×</button></div>
+      <button id="interact" class="primary interact" hidden></button>
+      <div id="map-wrap" class="map-wrap glass" hidden><div class="map-title"><span data-i18n="map">ARCHIPIÉLAGO BOIA</span><span id="compass">↑ N</span></div><canvas id="minimap" width="240" height="260" aria-label="Mapa de las islas"></canvas><span class="map-caption" data-i18n="mapHelp">Toca una isla para marcar el rumbo</span></div>
+      <div class="game-bottom"><button class="glass icon-btn" data-action="boat" data-i18n="myBoat">Mi barco</button><button class="glass icon-btn" data-action="achievements" id="achievements-btn">Logros</button><button class="glass icon-btn bottle" data-action="bottle" data-i18n="bottle">Mensaje en botella</button></div>
+      <button id="drift-button" class="drift-button" aria-label="Mantener para derrapar">DRIFT</button><div class="speed"><span id="speed-value">0</span><small data-i18n="knots">NUDOS</small></div>
+      <div id="joystick" hidden><div></div></div>
+    </section>
+  </main>
+  <div id="fallback" hidden><strong data-i18n="fallbackTitle">El océano necesita un dispositivo con 3D.</strong><p data-i18n="fallbackText">Puedes seguir viendo los eventos, artistas y recuerdos desde la portada.</p><button class="primary" data-action="home" data-i18n="backFestival">Volver al festival</button></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="achievement-toast" popover="manual" role="status" aria-live="polite" hidden><span class="achievement-seal">⚓</span><div><small id="achievement-label">LOGRO DESBLOQUEADO</small><strong id="achievement-name"></strong><span id="achievement-points"></span></div></div>
+  <div id="race-hud" class="race-hud glass" hidden><span id="race-name">LA RUTA DEL COCODRILO</span><strong id="race-time">00:00.00</strong><small id="race-checkpoint"></small><button data-race="quit">Abandonar</button></div>
+  <div id="countdown" class="countdown" aria-live="assertive" hidden></div>
+  <dialog id="board"><header class="board-header"><span>BOIA.PLANET</span><button data-close-board aria-label="Cerrar menú">×</button></header><nav id="board-tabs" aria-label="Menú de a bordo"></nav><div id="board-body"></div></dialog>
+  <dialog id="panel"><div class="panel-top"><span id="panel-kicker">BOIA.PLANET</span><button id="close-panel" aria-label="Cerrar">×</button></div><div id="panel-content"></div></dialog>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>

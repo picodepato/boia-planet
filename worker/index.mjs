@@ -1,0 +1,4 @@
+import assets from '../build/assets.mjs';
+import {api} from './api.mjs';
+const decoded=new Map();
+export default {async fetch(request,env){const url=new URL(request.url);if(url.pathname.startsWith('/api/')){try{return await api(request,env);}catch(e){console.warn('BOIA request unavailable',e.message);return Response.json({error:'Service unavailable'},{status:503});}}let name=url.pathname;if(name.endsWith('/'))name+='index.html';if(name==='/planet')return Response.redirect(url.origin+'/planet/',301);const asset=assets[name];if(!asset)return new Response('Not found',{status:404});if(!decoded.has(name)){const binary=atob(asset[1]);decoded.set(name,Uint8Array.from(binary,c=>c.charCodeAt(0)));}return new Response(request.method==='HEAD'?null:decoded.get(name),{headers:{'Content-Type':asset[0],'Cache-Control':name.endsWith('.html')?'no-cache':'public, max-age=300','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'}});}};

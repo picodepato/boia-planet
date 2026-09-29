@@ -1,0 +1,602 @@
+[
+  {
+    "id": "F01",
+    "area": "Mejoras del documento",
+    "item": "1 CTA principal",
+    "description": "Ampliar CTA y explicar descuentos, mantener Tickets",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F02",
+    "area": "Mejoras del documento",
+    "item": "2 Home y mundo",
+    "description": "Viaje a destino, abrir contenido y conservar posición",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F03",
+    "area": "Mejoras del documento",
+    "item": "3 Entradas e isla",
+    "description": "Enlace de navegación en eventos; Nochevieja prioritaria",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F04",
+    "area": "Mejoras del documento",
+    "item": "4 Artistas rotatorios",
+    "description": "Tres simultáneos, rotación equilibrada cada 3 s",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F05",
+    "area": "Mejoras del documento",
+    "item": "5 Menos HUD",
+    "description": "Quitar tarjeta fija y reutilizar cola de notificaciones",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F06",
+    "area": "Mejoras del documento",
+    "item": "6 Misiones y logros",
+    "description": "Unificar acceso a progreso, retirar encuesta anterior de artistas",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F07",
+    "area": "Mejoras del documento",
+    "item": "7 Primera boya",
+    "description": "Bocadillos por proximidad sin modal ni pausa",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F08",
+    "area": "Mejoras del documento",
+    "item": "8 Islas por proximidad",
+    "description": "Llegada desde cualquier lado y descubrimiento una vez",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F09",
+    "area": "Mejoras del documento",
+    "item": "9 Minimapa",
+    "description": "Más pequeño, arrastre largo, anclaje y preferencia local",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F10",
+    "area": "Mejoras del documento",
+    "item": "10 Misión Fiestera",
+    "description": "Estados perdida, rescatada y entregada persistentes",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F11",
+    "area": "Mejoras del documento",
+    "item": "11 Rescate",
+    "description": "Cocodrilos, diálogo y animación de embarque",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F12",
+    "area": "Mejoras del documento",
+    "item": "12 Pasajera visible",
+    "description": "Fiestera físicamente en barco y reacciones",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F13",
+    "area": "Mejoras del documento",
+    "item": "13 Entrega",
+    "description": "Desembarco, celebración y mundo abierto",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F14",
+    "area": "Mejoras del documento",
+    "item": "14 Restos",
+    "description": "Recogida al pasar, regeneración y puntos repetibles",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F15",
+    "area": "Mejoras del documento",
+    "item": "15 Mar vivo",
+    "description": "Delfín, remolino, cofres; corrientes musicales fuera de prioridad",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F16",
+    "area": "Mejoras del documento",
+    "item": "16 Circuito",
+    "description": "Conservar cronómetro, marca local y ranking validado",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F17",
+    "area": "Mejoras del documento",
+    "item": "17 Boosts de viento",
+    "description": "Banderas, impulso temporal, sonido y estela",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F18",
+    "area": "Mejoras del documento",
+    "item": "18 Obstáculos",
+    "description": "Conservar cocodrilo, añadir roca y medusa",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F19",
+    "area": "Mejoras del documento",
+    "item": "19 Bifurcación",
+    "description": "Ruta normal y atajo físico con reencuentro",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F20",
+    "area": "Mejoras del documento",
+    "item": "20 Botellas",
+    "description": "Conservar una por persona y límite; quitar puntos",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F21",
+    "area": "Mejoras del documento",
+    "item": "21 Carnet",
+    "description": "Vista pública antes de edición, avatar/foto y fecha de alta",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F22",
+    "area": "Mejoras del documento",
+    "item": "22 Descubrir Carnets",
+    "description": "Adaptar enlaces de ranking y botellas, añadir artistas",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F23",
+    "area": "Mejoras del documento",
+    "item": "23 Preguntas",
+    "description": "Cinco preguntas definitivas y sus respuestas visibles",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F24",
+    "area": "Mejoras del documento",
+    "item": "24 Menú",
+    "description": "Siete pestañas ordenadas, incluir Mi Carnet",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F25",
+    "area": "Mejoras del documento",
+    "item": "25 Iconos",
+    "description": "Iconos reconocibles y etiquetas accesibles",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F26",
+    "area": "Mejoras del documento",
+    "item": "26 Sonido",
+    "description": "Volumen de efectos separado y sonidos de acciones",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F27",
+    "area": "Mejoras del documento",
+    "item": "27 Welcome Aboard",
+    "description": "Consulta voluntaria; actualizar objetivo y ayuda",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F28",
+    "area": "Mejoras del documento",
+    "item": "28 UX",
+    "description": "Aplicar a todas las mecánicas y móvil",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F29",
+    "area": "Mejoras del documento",
+    "item": "29 Flujo principal",
+    "description": "Conectar fases sin cerrar mundo al terminar misión",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F30",
+    "area": "Mejoras del documento",
+    "item": "30 Método",
+    "description": "Adaptaciones progresivas con pruebas acotadas",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F31",
+    "area": "Mejoras del documento",
+    "item": "31 Artistas oficiales",
+    "description": "Sustituir los tres ficticios por 26 nombres aportados",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F32",
+    "area": "Mejoras del documento",
+    "item": "32 Filosofía",
+    "description": "Alicante, encuentro cultural y All Day BOIA",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F33",
+    "area": "Mejoras del documento",
+    "item": "33 Sellos",
+    "description": "Historial y canje alternativo; compras dependen de ticketera",
+    "status": "En proceso",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F34",
+    "area": "Mejoras del documento",
+    "item": "34 Lenguaje",
+    "description": "Miembro de BOIA formal y Bollero informal",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F35",
+    "area": "Mejoras del documento",
+    "item": "35 Exclusiones",
+    "description": "Sin rediseño 2D, admin, blog, amigos ni mensajes privados",
+    "status": "Fuera del piloto",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F36",
+    "area": "Mejoras del documento",
+    "item": "36 Prioridad",
+    "description": "Seguir las cinco fases del documento",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F37",
+    "area": "Mejoras del documento",
+    "item": "37 Implementación",
+    "description": "Entrega sobre el mismo proyecto público",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F38",
+    "area": "Otras funciones acordadas",
+    "item": "Controles táctiles y joystick",
+    "description": "Tocar el barco y arrastrar desde ese punto; teclado en ordenador.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F39",
+    "area": "Otras funciones acordadas",
+    "item": "Drifting",
+    "description": "Segundo dedo o Espacio. Validación de física superada; tacto pendiente de móvil real.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F40",
+    "area": "Otras funciones acordadas",
+    "item": "Ciclo de día y noche",
+    "description": "Ciclo de ocho minutos con opción de desactivarlo.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F41",
+    "area": "Otras funciones acordadas",
+    "item": "Contenido en español e inglés",
+    "description": "Entrada, portada, menús, misión y fichas traducidos.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F42",
+    "area": "Otras funciones acordadas",
+    "item": "Guardado sin cuenta",
+    "description": "Progreso local; combinación del progreso al crear Carnet.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F43",
+    "area": "Otras funciones acordadas",
+    "item": "Aspecto del barco",
+    "description": "Color gratis; bandera, estela, modelo y accesorio con monedas.",
+    "status": "Implementado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F44",
+    "area": "Otras funciones acordadas",
+    "item": "Entrada por enlace de email",
+    "description": "El piloto utiliza acceso con ChatGPT. Falta configurar proveedor para enlace de email.",
+    "status": "No integrado",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "F45",
+    "area": "Otras funciones acordadas",
+    "item": "Tienda y formas de entrega",
+    "description": "Catálogo de muestra. Envío y recogida previstos; venta todavía inactiva.",
+    "status": "En proceso",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M01",
+    "area": "Materiales y conexiones",
+    "item": "Logos BOIA",
+    "description": "Logo y mascota aportados. Versiones vectoriales opcionales.",
+    "status": "Disponible",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M02",
+    "area": "Materiales y conexiones",
+    "item": "Nombres y géneros de artistas",
+    "description": "Los 26 nombres del documento están incorporados.",
+    "status": "Disponible",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M03",
+    "area": "Materiales y conexiones",
+    "item": "Retratos de artistas",
+    "description": "Faltan las 26 fotografías reales; ahora tienen avatar BOIA.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M04",
+    "area": "Materiales y conexiones",
+    "item": "Historias de artistas",
+    "description": "Cada artista debe responder las cinco preguntas del Carnet.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M05",
+    "area": "Materiales y conexiones",
+    "item": "Canciones",
+    "description": "Cuatro canciones de navegación y permisos de uso. Ahora son ambientes sintetizados.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M06",
+    "area": "Materiales y conexiones",
+    "item": "Eventos",
+    "description": "Fechas, horarios, ubicación secreta y datos de cada edición.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M07",
+    "area": "Materiales y conexiones",
+    "item": "Carteles",
+    "description": "Carteles oficiales de Halloween, Navidad y Nochevieja u otros eventos reales.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M08",
+    "area": "Materiales y conexiones",
+    "item": "Fotos y vídeos",
+    "description": "Galerías por evento; actualmente hay imágenes ilustrativas.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M09",
+    "area": "Materiales y conexiones",
+    "item": "Ticketera",
+    "description": "Elegir plataforma, enlaces y confirmación de compras vinculadas al Carnet.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M10",
+    "area": "Materiales y conexiones",
+    "item": "Descuentos",
+    "description": "Códigos por evento, vigencia y condiciones reales.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M11",
+    "area": "Materiales y conexiones",
+    "item": "WhatsApp",
+    "description": "Enlace oficial del grupo y condiciones del pack de primera compra.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M12",
+    "area": "Materiales y conexiones",
+    "item": "Productos",
+    "description": "Fotos, precios, tallas, stock, envío y recogida.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M13",
+    "area": "Materiales y conexiones",
+    "item": "Filosofía",
+    "description": "Texto del documento incorporado; revisión editorial de BOIA.",
+    "status": "Disponible",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M14",
+    "area": "Materiales y conexiones",
+    "item": "QR y sellos",
+    "description": "Códigos del evento y conexión a compras. Soporte desarrollado, activación pendiente.",
+    "status": "En proceso",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  },
+  {
+    "id": "M15",
+    "area": "Materiales y conexiones",
+    "item": "Proveedor de email",
+    "description": "Acceso por enlace de email y recuperación de cuenta.",
+    "status": "Falta",
+    "satisfaction": "Por probar",
+    "reviewed": false,
+    "comment": ""
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "boia-sea-explorer",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "test": "node --test test/*.test.mjs", "build": "node scripts/build.mjs", "db:generate": "drizzle-kit generate" },
+  "dependencies": { "drizzle-orm": "0.45.2" },
+  "devDependencies": { "vite": "8.2.2", "drizzle-kit": "0.31.10" }
+}

@@ -1,58 +1,76 @@
 # BOIA PLANET
 
-Repositorio de trabajo de **BOIA PLANET**, una experiencia web 2.5D para BOIA Underground Music Festival: landing comercial, mapa navegable, comunidad, recompensas y panel de administración.
+Repositorio de la versión original de **BOIA PLANET**, desarrollada progresivamente como una experiencia web 3D navegable para BOIA Underground Music Festival.
 
-## Estado actual
+Referencia publicada: [boia-night-signal.picodepatos.chatgpt.site/planet/](https://boia-night-signal.picodepatos.chatgpt.site/planet/)
 
-Este primer commit conserva dos piezas de referencia:
+## Qué contiene
 
-- `index.html`: demo jugable/autocontenida v0.4.0. Funciona como prototipo visual y de interacción, no como arquitectura de producción.
-- `BOIA_PLANET_Documento_Maestro_Definitivo_v14_TRES_PROMPTS.docx`: especificación funcional y de producto vigente. **Es la fuente de verdad para el desarrollo definitivo.**
+- Entrada cinematográfica bilingüe.
+- Landing del festival con accesos a entradas, artistas, galería y tienda.
+- Mundo marítimo 3D con barco navegable.
+- Control táctil sobre el barco, teclado, piloto automático y drifting.
+- Islas de eventos, seis boyas, señales, recompensas y exploración.
+- Minijuego de carrera y controles adaptados a móvil.
+- Pasaporte piloto, progreso local, logros, cosméticos y mensajes en botella.
+- API y esquema de datos de la iteración comunitaria.
+- Pruebas automatizadas de navegación, progreso, recompensas y carrera.
 
-La demo incluye recursos embebidos en un único HTML para que pueda probarse sin instalación. La implementación definitiva deberá separarse en componentes, servicios, contenido administrable y recursos optimizados.
-
-## Probar la demo
-
-Opción rápida: abrir `index.html` en un navegador moderno.
-
-Opción recomendada:
+## Ejecutar localmente
 
 ```bash
-python3 -m http.server 4173
+npm ci
+npm run dev
 ```
 
-Después, abrir `http://localhost:4173`.
+Vite sirve el contenido de `dist/`. La experiencia principal está disponible en `/planet/`.
 
-## Estructura
+## Verificar
+
+```bash
+npm test
+npm run build
+```
+
+Estado al importar esta versión: **24 pruebas superadas** y compilación correcta.
+
+## Estructura principal
 
 ```text
-.
-├── index.html                         # Demo jugable actual
-├── BOIA_mascota.jpeg                  # Mascota de marca recibida
-├── BOIA_logotipo.jpeg                 # Logotipo recibido
-├── BOIA_PLANET_Documento_...docx      # Documento maestro definitivo v14
-├── HANDOFF_TECNICO.md                 # Notas para el equipo de desarrollo
-├── CONTRIBUTING.md                    # Flujo de colaboración
-└── README.md
+dist/planet/          Experiencia BOIA.PLANET y mundo navegable
+dist/assets/          Recursos visuales de marca y demostración
+worker/               Servidor web y API
+db/                   Esquema de datos
+drizzle/              Migraciones
+test/                 Pruebas y páginas de control móvil
+scripts/              Compilación y base de datos local
+docs/                 Checklist e historial de iteración
+review/                Exportación autocontenida para revisión
+archive/               Versiones anteriores conservadas
 ```
 
-## Prioridades de reconstrucción
+## Fuente de verdad y dirección futura
 
-1. Leer el documento maestro completo antes de decidir arquitectura o alcance.
-2. Implementar los tres prompts definitivos en orden y validar cada puerta de calidad.
-3. Mantener la venta de entradas como objetivo comercial principal.
-4. Construir contenido y mundo desde datos: eventos, islas, artistas, logros, mensajes, recompensas y tienda no deben quedar codificados de forma rígida.
-5. Crear un panel de administración seguro que permita ampliar el universo sin despliegues de código.
-6. Conservar el progreso local de visitantes anónimos y migrarlo al registrarse.
-7. Garantizar experiencia móvil, controles táctiles, accesibilidad y buen rendimiento.
+El documento `BOIA_PLANET_Documento_Maestro_Definitivo_v14_TRES_PROMPTS.docx` conserva el alcance funcional acordado. Sin embargo, su indicación de una experiencia isométrica 2.5D queda superada por la decisión posterior de continuar con un **mundo 3D navegable** inspirado en este prototipo.
 
-## Avisos importantes
+La siguiente revisión del documento deberá incorporar:
 
-- No hay credenciales reales en el repositorio y nunca deben añadirse.
-- La contraseña de administración no debe estar escrita en el frontend ni en la documentación. Debe gestionarse mediante el proveedor de autenticación y variables de entorno.
-- La demo no implementa todavía autenticación, pagos, ticketera, base de datos ni panel administrativo reales.
-- Antes de producción deben completarse privacidad, consentimiento, moderación, analítica, copias de seguridad y pruebas de seguridad.
+- Mundo 3D marítimo como dirección definitiva.
+- Modelado y optimización de escenarios en Blender.
+- Catálogo de barcos completos creados en Blender, no simples cambios de textura.
+- Exportación web mediante GLB/glTF.
+- Distintos modelos de barco con físicas equivalentes y personalización cosmética.
+- Gestión desde administración de barcos, accesorios, banderas, estelas y desbloqueos.
+
+Hasta que exista esa revisión, este código es la referencia de experiencia y el documento v14 sigue siendo la referencia funcional, exceptuando la dirección visual isométrica.
 
 ## Colaboración
 
-El repositorio es público para facilitar el acceso y la colaboración. El equipo debe trabajar mediante ramas y pull requests; conceder acceso de escritura únicamente a colaboradores autorizados. Las normas mínimas están en [CONTRIBUTING.md](CONTRIBUTING.md).
+El repositorio es público. Trabajad mediante ramas y pull requests y conceded acceso de escritura únicamente a colaboradores autorizados. Consultad [CONTRIBUTING.md](CONTRIBUTING.md) antes de integrar cambios.
+
+## Seguridad
+
+- No guardar contraseñas, tokens ni claves en Git.
+- Las cuentas administrativas deben usar roles individuales y doble factor.
+- El prototipo no debe conectarse a pagos o venta real de entradas sin la revisión correspondiente de seguridad, privacidad y cumplimiento.
+
