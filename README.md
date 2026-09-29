@@ -55,4 +55,4 @@ Después, abrir `http://localhost:4173`.
 
 ## Colaboración
 
-El repositorio parte como privado. Añadid a cada programador desde **Settings → Collaborators** y trabajad mediante ramas y pull requests. Las normas mínimas están en [CONTRIBUTING.md](CONTRIBUTING.md).
+El repositorio es público para facilitar el acceso y la colaboración. El equipo debe trabajar mediante ramas y pull requests; conceder acceso de escritura únicamente a colaboradores autorizados. Las normas mínimas están en [CONTRIBUTING.md](CONTRIBUTING.md).
